@@ -4,6 +4,7 @@
     width: 100%;
     margin: 0 auto;
     font-family: 'Work Sans', sans-serif;
+    background: url('../images/bg-body.png');
 }
 
 header {
@@ -78,6 +79,12 @@ header nav ul li a:hover {
     padding-top: 50px;
 }
 
+.banner .info {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .profile-img img {
     width: 100px;
     height: auto;
@@ -103,4 +110,42 @@ h4.designation {
     font-weight: 100;
     color: #fff;
     margin: 12px 0;
+}
+
+
+/*--- EDUCATION ---*/
+
+.education {
+    text-align: center;
+    max-width: 980px;
+    width: 100%;
+    margin: 25px auto 0;
+    color: #45576a;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    color: #45576a;
+}
+
+h6.course-title {
+    font-size: 20px;
+    margin: 30px 0 0;
+    color: #40b0f9;
+}
+
+h6.course-title span.institution {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+p.course-year {
+    font-weight: bolder;
+    font-size: 18px;
 }
