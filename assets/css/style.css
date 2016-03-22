@@ -71,6 +71,7 @@ header nav ul li a:hover {
 
 .banner {
     background: url('../images/banner-cover.png') no-repeat;
+    background-attachment: fixed;
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -115,14 +116,19 @@ h4.designation {
 
 /*--- EDUCATION ---*/
 
-.education {
+section {
     text-align: center;
     max-width: 980px;
     width: 100%;
     margin: 25px auto 0;
     color: #45576a;
-    padding: 0 25px;
+    padding: 0 25px 20px;
     box-sizing: border-box;
+    border-bottom: 1px solid #45576a;
+}
+
+section:last-child {
+	border-bottom: none;
 }
 
 h5 {
@@ -168,4 +174,42 @@ p.course-year {
 
 .count span.active {
     background: #45576a;
+}
+
+
+/*---- CONTACT ----*/
+
+.sharre-icons {
+    margin-top: 20px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.sharre-icons i.fa {
+    font-size: 25px;
+}
+
+.sharre-icons i.fa.fa-facebook {
+    color: #46629E;
+}
+
+.sharre-icons i.fa.fa-twitter {
+    color: #1da1f2;
+}
+
+.sharre-icons i.fa.fa-github-alt {
+    color: #000;
+}
+
+.sharre-icons i.fa.fa-linkedin {
+    color: #006fa6;
+}
+
+.sharre-icons i.fa.fa-google-plus {
+    color: #D73D32;
+}
+
+.sharre-icons i.fa.fa-instagram {
+    color: #125688;
 }
