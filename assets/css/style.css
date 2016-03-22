@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    padding: 15px 0;
+    background: #40b0f9;
+}
+
+header h1 {
+    max-width: 100px;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    transform: translate(20px, 60px);
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 19px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+header nav {
+    max-width: 675px;
+    width: 100%;
+    margin: 25px 0 0;
+    float: right;
+}
+
+header nav ul {
+    margin: 8px 0 0;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    transition: .5s ease all;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #40b0f9;
+}
+
+
+/*--- BANNER ---*/
+
+.banner {
+    background: url('../images/banner-cover.png') no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.profile-img img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+h2.date-of-birth {
+    font-size: 18px;
+    font-weight: 100;
+    color: #40b0f9;
+    margin: 12px 0;
+}
+
+h3.name {
+    font-size: 24px;
+    color: #fff;
+    margin: 12px 0;
+    font-weight: bolder;
+}
+
+h4.designation {
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+    margin: 12px 0;
+}
