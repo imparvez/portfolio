@@ -149,3 +149,23 @@ p.course-year {
     font-weight: bolder;
     font-size: 18px;
 }
+
+.count {
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+.count span {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #45576a;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.count span.active {
+    background: #45576a;
+}
