@@ -78,6 +78,7 @@ header nav ul li a:hover {
     text-align: center;
     box-sizing: border-box;
     padding-top: 50px;
+    background-position: 50% 50%;
 }
 
 .banner .info {
