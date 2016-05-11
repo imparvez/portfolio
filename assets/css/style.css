@@ -137,6 +137,25 @@ header.sticky-nav {
     width: 100%;
 }
 
+/*--- BANNER ---*/
+
+.banner {
+    background: url('../images/banner-cover.png') no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    background-position: 50% 50%;
+}
+
+.banner .info {
+    max-width: 500px;
+    width: 100%;
+}
+
 /*--- EDUCATION ---*/
 
 section {
@@ -151,7 +170,7 @@ section {
 }
 
 section:last-child {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 h5 {
@@ -270,4 +289,47 @@ p.course-year {
 
 .sharre-icons i.fa.fa-instagram {
     color: #125688;
+}
+
+
+/*--- EXPERIENCE ----*/
+
+div.exp-conatiner:first-child {
+    margin-top: 25px;
+}
+
+.job-info,
+.job-period {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.job-info {
+    width: 33%;
+    min-height: 200px;
+    padding: 0 100px 0 15px;
+    border-right: 1px solid #45576a;
+    position: relative;
+}
+
+.job-info p,
+.job-period p {
+    margin: 17px 0;
+}
+
+.job-period {
+    width: 40%;
+    padding: 0px 0px 0 35px;
+}
+
+span.dot {
+    width: 10px;
+    height: 10px;
+    background: #45576a;
+    border-radius: 50%;
+    border: 1px solid #45576a;
+    display: inline-block;
+    position: absolute;
+    top: 23px;
+    right: -7px;
 }
