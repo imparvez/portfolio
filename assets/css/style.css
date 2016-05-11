@@ -7,66 +7,6 @@
     background: url('../images/bg-body.png');
 }
 
-header {
-    padding: 15px 0;
-    background: #40b0f9;
-}
-
-header h1 {
-    max-width: 100px;
-    width: 100%;
-    margin: 0;
-    display: inline-block;
-    text-align: center;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    margin-left: 10px;
-    border: 1px solid #fff;
-    transform: translate(20px, 60px);
-    box-shadow: 0px 0px 5px #ccc;
-}
-
-header h1 a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 19px;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-}
-
-header nav {
-    max-width: 675px;
-    width: 100%;
-    margin: 25px 0 0;
-    float: right;
-}
-
-header nav ul {
-    margin: 8px 0 0;
-}
-
-header nav ul li {
-    float: left;
-    list-style: none;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    padding: 8px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: #fff;
-    transition: .5s ease all;
-}
-
-header nav ul li a:hover {
-    background: #fff;
-    color: #40b0f9;
-}
-
-
 /*--- BANNER ---*/
 
 .banner {
@@ -78,6 +18,22 @@ header nav ul li a:hover {
     text-align: center;
     box-sizing: border-box;
     padding-top: 50px;
+    position: relative;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    border: 1px solid #fff;
+    padding: 10px 0;
+}
+
+.banner h1 a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0 5px;
 }
 
 .banner .info {
@@ -113,6 +69,73 @@ h4.designation {
     margin: 12px 0;
 }
 
+/*--- HEADER ----*/
+header {
+    padding: 15px 0;
+    background: #40b0f9;
+    transition: all .5s ease-out;
+    overflow: hidden;
+}
+
+/*header h1 {
+    max-width: 100px;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    transform: translate(20px, 60px);
+    box-shadow: 0px 0px 5px #ccc;
+}*/
+
+/*header h1 a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 19px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}*/
+
+header nav {
+    max-width: 675px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav ul {
+    margin: 8px 0 0;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    transition: .5s ease all;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #40b0f9;
+}
+
+header.sticky-nav {
+    position: fixed;
+    top: 0;
+    max-width: 1200px;
+    width: 100%;
+}
 
 /*--- EDUCATION ---*/
 
@@ -175,6 +198,41 @@ p.course-year {
 .count span.active {
     background: #45576a;
 }
+
+
+/*---- EXPERIENCE ----*/
+.experience .box { margin: 30px 0 0; }
+
+.designation {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.company-name {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.job-description {
+    text-align: left;
+    width: 80%;
+    margin: 10px auto 0;
+    display: inline-block;
+    list-style-type: circle;
+}
+
+/*---- PROJECT ----*/
+.project-name {
+    margin: 20px 0 10px;
+    font-size: 24px;
+}
+
+.project-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-name a:hover { text-decoration: underline; }
 
 
 /*---- CONTACT ----*/
