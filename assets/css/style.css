@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+* {
+    transition: all 0.5s ease;
+}
+
 .wrapper {
     max-width: 1200px;
     width: 100%;
@@ -69,9 +74,18 @@ h4.designation {
     margin: 12px 0;
 }
 
+.sticky-logo {
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    margin: 2px 0 0;
+    z-index: 11;
+    padding: 5px 0px;
+}
+
 /*--- HEADER ----*/
 header {
-    padding: 15px 0;
+    padding: 10px 0;
     background: #40b0f9;
     position: relative;
     transition: all .5s ease-out;
@@ -79,13 +93,14 @@ header {
 }
 
 header nav {
-    max-width: 675px;
+    max-width: 865px;
     width: 100%;
     margin: 0 auto;
 }
 
 header nav ul {
-    margin: 8px 0 0;
+    padding: 0px;
+    margin: 0px;
     overflow: hidden;
 }
 
@@ -96,17 +111,23 @@ header nav ul li {
 }
 
 header nav ul li a {
-    padding: 8px;
+    padding: 0 2rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bolder;
     color: #fff;
+    letter-spacing: .5px;
     transition: .5s ease all;
+    box-sizing: border-box;
+    line-height: 36px;
+    height: 36px;
+    display: inline-block;
 }
 
 header nav ul li a:hover {
     background: #fff;
     color: #40b0f9;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 .sticky-nav {
@@ -114,6 +135,7 @@ header nav ul li a:hover {
     top: 0;
     max-width: 1200px;
     width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 /*--- BANNER ---*/
@@ -143,7 +165,7 @@ section {
     width: 100%;
     margin: 25px auto 0;
     color: #45576a;
-    padding: 0 25px 20px;
+    padding: 25px 25px 20px;
     box-sizing: border-box;
     border-bottom: 1px solid #45576a;
 }
