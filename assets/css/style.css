@@ -1,0 +1,336 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+* {
+    transition: all 0.5s ease;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+    background: url('../images/bg-body.png');
+}
+
+/*--- BANNER ---*/
+
+.banner {
+    background: url('../images/banner-cover.png') no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    position: relative;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    border: 1px solid #fff;
+    padding: 10px 0;
+}
+
+.banner h1 a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0 5px;
+}
+
+.banner .info {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile-img img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+h2.date-of-birth {
+    font-size: 18px;
+    font-weight: 100;
+    color: #40b0f9;
+    margin: 12px 0;
+}
+
+h3.name {
+    font-size: 24px;
+    color: #fff;
+    margin: 12px 0;
+    font-weight: bolder;
+}
+
+h4.designation {
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+    margin: 12px 0;
+}
+
+.sticky-logo {
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    margin: 2px 0 0;
+    z-index: 11;
+    padding: 5px 0px;
+}
+
+/*--- HEADER ----*/
+header {
+    padding: 10px 0;
+    background: #40b0f9;
+    position: relative;
+    transition: all .5s ease-out;
+    overflow: hidden;
+}
+
+header nav {
+    max-width: 865px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav ul {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    padding: 0 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: .5px;
+    transition: .5s ease all;
+    box-sizing: border-box;
+    line-height: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #40b0f9;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+/*--- BANNER ---*/
+
+.banner {
+    background: url('../images/banner-cover.png') no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    background-position: 50% 50%;
+}
+
+.banner .info {
+    max-width: 500px;
+    width: 100%;
+}
+
+/*--- EDUCATION ---*/
+
+section {
+    text-align: center;
+    max-width: 980px;
+    width: 100%;
+    margin: 25px auto 0;
+    color: #45576a;
+    padding: 25px 25px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #45576a;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    color: #45576a;
+}
+
+h6.course-title {
+    font-size: 20px;
+    margin: 30px 0 0;
+    color: #40b0f9;
+}
+
+h6.course-title span.institution {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+p.course-year {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.count {
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+.count span {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #45576a;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.count span.active {
+    background: #45576a;
+}
+
+
+/*---- EXPERIENCE ----*/
+.experience .box { margin: 30px 0 0; }
+
+.designation {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.company-name {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.job-description {
+    text-align: left;
+    width: 80%;
+    margin: 10px auto 0;
+    display: inline-block;
+    list-style-type: circle;
+}
+
+/*---- PROJECT ----*/
+.project-name {
+    margin: 20px 0 10px;
+    font-size: 24px;
+}
+
+.project-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-name a:hover { text-decoration: underline; }
+
+
+/*---- CONTACT ----*/
+
+.sharre-icons {
+    margin-top: 20px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.sharre-icons i.fa {
+    font-size: 25px;
+}
+
+.sharre-icons i.fa.fa-facebook {
+    color: #46629E;
+}
+
+.sharre-icons i.fa.fa-twitter {
+    color: #1da1f2;
+}
+
+.sharre-icons i.fa.fa-github-alt {
+    color: #000;
+}
+
+.sharre-icons i.fa.fa-linkedin {
+    color: #006fa6;
+}
+
+.sharre-icons i.fa.fa-google-plus {
+    color: #D73D32;
+}
+
+.sharre-icons i.fa.fa-instagram {
+    color: #125688;
+}
+
+
+/*--- EXPERIENCE ----*/
+
+div.exp-conatiner:first-child {
+    margin-top: 25px;
+}
+
+.job-info,
+.job-period {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.job-info {
+    width: 33%;
+    min-height: 200px;
+    padding: 0 100px 0 15px;
+    border-right: 1px solid #45576a;
+    position: relative;
+}
+
+.job-info p,
+.job-period p {
+    margin: 17px 0;
+}
+
+.job-period {
+    width: 40%;
+    padding: 0px 0px 0 35px;
+}
+
+span.dot {
+    width: 10px;
+    height: 10px;
+    background: #45576a;
+    border-radius: 50%;
+    border: 1px solid #45576a;
+    display: inline-block;
+    position: absolute;
+    top: 23px;
+    right: -7px;
+}
