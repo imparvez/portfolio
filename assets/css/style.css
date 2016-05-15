@@ -73,32 +73,10 @@ h4.designation {
 header {
     padding: 15px 0;
     background: #40b0f9;
+    position: relative;
     transition: all .5s ease-out;
     overflow: hidden;
 }
-
-/*header h1 {
-    max-width: 100px;
-    width: 100%;
-    margin: 0;
-    display: inline-block;
-    text-align: center;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    margin-left: 10px;
-    border: 1px solid #fff;
-    transform: translate(20px, 60px);
-    box-shadow: 0px 0px 5px #ccc;
-}*/
-
-/*header h1 a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 19px;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-}*/
 
 header nav {
     max-width: 675px;
@@ -108,6 +86,7 @@ header nav {
 
 header nav ul {
     margin: 8px 0 0;
+    overflow: hidden;
 }
 
 header nav ul li {
@@ -130,7 +109,7 @@ header nav ul li a:hover {
     color: #40b0f9;
 }
 
-header.sticky-nav {
+.sticky-nav {
     position: fixed;
     top: 0;
     max-width: 1200px;
