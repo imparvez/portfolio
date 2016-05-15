@@ -4,6 +4,18 @@
     transition: all 0.5s ease;
 }
 
+.kebab-container { overflow: hidden; }
+
+.kebab-menu { 
+    display: none;
+    width: 25px;
+    height: 25px;
+    background: url('../images/kebab-icon.png');
+    background-size: contain;
+    float: right;
+    cursor: pointer;
+}
+
 .wrapper {
     max-width: 1200px;
     width: 100%;
@@ -108,6 +120,22 @@ header nav ul li {
     float: left;
     list-style: none;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .kebab-menu {
+        display: block;
+    }
+
+    header nav ul { display: none; }
+
+    .nav-expanded-menu { display: block; }
+    
+    header nav ul li {
+        float: none;
+        margin-right: 0px;
+    }
+    header nav ul li a { width: 100%; }
 }
 
 header nav ul li a {

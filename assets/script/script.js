@@ -35,5 +35,9 @@ $(document).ready(function() {
 		} else {
 			return false;
 		}
-	})
+	});
+
+	$(".kebab-menu").on("click", function(){
+		$("nav ul").slideToggle("fast");
+	});
 });
